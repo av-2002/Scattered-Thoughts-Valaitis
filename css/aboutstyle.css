@@ -1,0 +1,159 @@
+body{
+    width:940px;
+    margin: 0 auto;
+
+    height: auto;
+    
+}
+
+*{
+    box-sizing: border-box;
+
+}
+
+#wrapper, .section-one, .section-two, .section-three, .section-four, .section-five
+, .section-six {
+    width: 100%;
+    float: left; 
+
+}
+
+#wrapper {
+    background-color: #31688C;
+}
+
+.section-one .nav {
+    position:relative;
+    width:100%;
+    top: 40px;
+    display: grid;
+    grid-template-columns:repeat(5,1fr) ;
+    text-align: center;
+    font-family: "baskerville-display-pt", serif;
+font-weight: 800;
+font-style: normal;
+    height:100px;
+}
+
+
+.section-one .nav img{
+    margin: auto;
+    width: 60px;
+}
+
+.section-one {
+    position:relative;
+}
+
+.section-one .banner-info {
+    top: 127px;
+    left: 170px;
+    letter-spacing: 8px;
+}
+
+
+.section-one a{
+    text-decoration: none;
+    color:#31688C;
+    background-color: white;
+    font-family: "baskerville-urw", serif;
+    font-weight: 400;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 40px;
+    letter-spacing: 1px;
+    
+}
+
+.section-one .nav a:hover{
+    background-color: #31688C;
+    color: white;
+}
+
+.section-one .nav a.active{
+    background-color: #518bb1;
+    color: white;
+}
+
+.section-one .logo{
+    background-color: transparent;
+}
+
+.section-two {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap:24px;
+    color: white;
+    width: 800px;
+    margin: 0 auto;
+    float:none;
+
+}
+.section-two img{
+    margin-top: 64px;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.section-two .about h2{
+    font-size: 31px;
+    font-family: "baskerville-urw", serif;
+    font-weight: 800;
+    font-style: normal;
+    letter-spacing: 2px;
+    margin-top: 60px;
+    letter-spacing: 0px;
+    margin-top: 90px;
+    margin-left: 118px;
+}
+ .section-two .about h3{
+    font-family: "baskerville-urw", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    letter-spacing: 2px;
+    margin-top: 5px;
+ }
+
+ .section-two .about p{
+    font-family: "baskerville-urw", serif;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.section-two .about h4{
+    margin-left: 106px;
+    text-decoration: none;
+    color: #31688C;
+    background-color: white;
+    font-family: serif;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 40px;
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: "baskerville-urw", serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2px;
+    margin-right: 120px;
+}
+
+.section-two .about a{
+    text-decoration: none;
+    color: #31688C;
+}
+
+.section-two .nav a:hover{
+    background-color: #31688C;
+    color: white;
+}
